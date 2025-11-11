@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  width: 100%;
+}
+
+input, textarea {
+  max-width: 1300px;
+}
+
+.aboutus {
+  margin-bottom: 10px;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  padding-top: 70px;
+  min-height: 88vh;
+  flex: 1;
+}
+
+.header {
+  background-color: maroon;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+}
+
+.indent {
+  padding-left: 1%;
+  max-width: 98%;
+  margin-top: 10px;
+}
+
+.logo {
+  margin-left: 0.5%;
+  margin-right: 25px;
+  height: 80%;
+}
+
+.divider {
+  height: 2px;
+  background-color: maroon;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.myButton {
+  margin-bottom: 10px;
+  background-color: maroon !important;
+  border-color: #660000 !important;
+}
+
+.myButton:hover {
+  background-color: #660000 !important;
+}
+
+.end {
+  margin-bottom: 10px;
+}
+
+.headerLink {
+  display: flex;
+  align-items: center;
+  height: 67px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.headerLink:hover {
+  background-color: #660000;
+}
+
+.company {
+  margin-top: 25px;
+}
+
+.radio {
+  margin-left: 15px;
+}
+
+.opencompany {
+  color: maroon;
+  font-weight: bolder;
+}
+
+.opencompany:hover {
+  color: #660000;
+}
+
+.savechanges {
+  margin-top: 25px;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.myalert {
+  z-index: 1;
+}
+
+#tips {
+  min-height: 200px;
+}
