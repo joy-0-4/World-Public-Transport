@@ -30,9 +30,9 @@ World Public Transport aims to make community contributions as accessible as pos
 Rather than requiring users to register, create accounts or verify their identities, the application allows anyone to contribute information. This reduces barriers to participation and encourages travelers to share useful knowledge.
 
 ## Technologies Used
-- React
-- JavaScript
-- MongoDB
+- React - building user interface
+- JavaScript - application logic and functionality
+- MongoDB - storing public transport company information and community contributions
 
 ## Screenshots
 Search Page
@@ -41,10 +41,43 @@ Search Page
 Company Detail
 <img width="1248" height="293" alt="image" src="https://github.com/user-attachments/assets/a33a7466-95a0-4cd1-ba8c-ff2c7fceb2dd" />
 
-Company Record Creation/Edit Page
+Company Creation/Editing
 <img width="1248" height="636" alt="image" src="https://github.com/user-attachments/assets/8fdf2d66-14aa-416a-84fc-b0dcff032627" />
 
 ## Installation and Setup
+### Requirements
+- Node.js and npm
+- a MongoDB database (MongoDB Atlas or a local MongoDB instance)
+Demo database: Credentials are available upon request for interviewers who would like to explore the application's backend and database functionality.
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/joy-0-4/World-Public-Transport.git
+cd World-Public-Transport/world-public-transport
+```
+
+### 2. Configure the database
+Create your local configuration file by copying the example:
+```bash
+cp backend/config.example.env backend/config.env
+```
+
+Open backend/config.env and provide your own MongoDB connection string:
+```
+ATLAS_URI=your_mongodb_connection_string
+```
+
+The configuration file is intentionally excluded from version control to prevent database credentials from being exposed.
+
+### 3. Install dependencies
+Install the dependencies in the frontend and backend directories containing their respective package.json files.
+```bash
+npm install
+```
+
+### 4. Start the application
+Start the frontend and backend using the development scripts defined in their respective package.json files.
+The application requires both services to be running.
 
 ## Future Improvements
 - ratings and reviews
